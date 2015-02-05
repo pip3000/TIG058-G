@@ -37,11 +37,7 @@ public class ClubRegistry {
 	members = cs.getMembers();
 	Logger.debugLeaveMethod();
     }
-//////////
-    
-    //hejhopp
-    hej
-    /**
+
      * We prevent multiple instances of this class by setting the
      * constructor to private. In order to get hold of the only
      * instance this method can be used.
