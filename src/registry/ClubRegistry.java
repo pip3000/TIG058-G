@@ -1,4 +1,4 @@
-package tig058.handin01.registry;
+package registry;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,7 +37,10 @@ public class ClubRegistry {
 	members = cs.getMembers();
 	Logger.debugLeaveMethod();
     }
-
+//////////
+    
+    //hejhopp
+    hej
     /**
      * We prevent multiple instances of this class by setting the
      * constructor to private. In order to get hold of the only
