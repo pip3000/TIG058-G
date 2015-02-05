@@ -1,7 +1,7 @@
 package clubstore;
 
 import java.util.ArrayList;
-import tig058.handin01.member.Member;
+import member.Member;
 
 /**
  *

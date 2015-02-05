@@ -1,6 +1,7 @@
 package registry;
 
 import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -10,10 +11,10 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 
-import tig058.handin01.clubstore.ClubStore;
-import tig058.handin01.clubstore.ClubStoreFactory;
-import tig058.handin01.member.Member;
-import tig058.handin01.log.Logger;
+import clubstore.ClubStore;
+import clubstore.ClubStoreFactory;
+import member.Member;
+import log.Logger;
 
 /**
  *
@@ -37,7 +38,7 @@ public class ClubRegistry {
 	members = cs.getMembers();
 	Logger.debugLeaveMethod();
     }
-
+/*
      * We prevent multiple instances of this class by setting the
      * constructor to private. In order to get hold of the only
      * instance this method can be used.
