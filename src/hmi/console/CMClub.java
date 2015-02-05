@@ -1,15 +1,15 @@
-package myprogram.hmi.console;
+package hmi.console;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import tig058.handin01.registry.ClubRegistry;
-import tig058.handin01.member.Member;
-import tig058.handin01.member.MemberAlphaComparator;
-import tig058.handin01.member.MemberAlphaFirstnameComparator;
-import tig058.handin01.log.Logger;
+import registry.ClubRegistry;
+import member.Member;
+import member.MemberAlphaComparator;
+import member.MemberAlphaFirstnameComparator;
+import log.Logger;
 
-import myprogram.hmi.cli.ClubHelper;
+import hmi.cli.ClubHelper;
 
 
 public class CMClub {

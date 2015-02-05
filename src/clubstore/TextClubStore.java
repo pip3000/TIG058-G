@@ -21,7 +21,7 @@ import java.io.*;
 public class TextClubStore implements ClubStore {
 
     private static ArrayList<Member> members ;
-    private static final String FILESTORE_NAME = "members.db";
+    private static final String FILESTORE_NAME = "src/database/members.db";
 
     private static TextClubStore tcs = null;
 

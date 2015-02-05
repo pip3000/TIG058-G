@@ -1,13 +1,13 @@
-package hmi.cli;
+package myprogram.hmi.cli;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import registry.ClubRegistry;
-import member.Member;
-import member.MemberAlphaComparator;
-import member.MemberAlphaFirstnameComparator;
-import log.Logger;
+import tig058.handin01.registry.ClubRegistry;
+import tig058.handin01.member.Member;
+import tig058.handin01.member.MemberAlphaComparator;
+import tig058.handin01.member.MemberAlphaFirstnameComparator;
+import tig058.handin01.log.Logger;
 
 public class ClubMain {
 
@@ -52,7 +52,7 @@ public class ClubMain {
 	cm.cr.storeMembers();
 	*/
 
-	ch.printMembers("%Karl%");
+	ch.printMembers("%d%");
 	ch.printTeams();
 
 	ch.printTeamMembers("F01");
